@@ -1,0 +1,95 @@
+
+
+.footwrap {
+    
+}
+.footwrap > h2 {
+    font-size: 23px;
+    color: gray;
+    font-family: math;
+    margin: 0;
+    padding-left: 12em;
+}
+.footwrap > p {
+    padding-bottom: 5px;
+    font-size: larger;
+    color: gray;
+    margin: 0;
+    padding-left: 25em;
+}
+
+.imgsWrapper {
+    /*text-align-last: center;*/
+    padding-left: 35px;
+}
+.imgsWrapper > img {
+    padding: 15px;
+}
+
+
+
+
+
+.footerBottom
+{
+	display: flex;
+	width:100%;
+	padding: 3em;
+}
+.bottomLeft {
+    width: 55%;
+}
+.bottomRight{
+	display: flex;
+	width: 40%;
+    padding-right: 25em;
+}
+
+.bottomRight ul{
+	padding-left: 0px;
+
+}
+.side1, .side2, .side3{
+	padding: 20px
+}
+.side1 ul > li > a {
+	 color: black;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.side2 ul > li > a {
+    color: black;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.side3 ul > li > a {
+    color: black;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.socialWrap {
+    padding: 2em 0 0 4em;
+}
+.socialWrap a > i {
+    padding: 6px;
+    font-size: 22px;
+    color: #dcbfff; /*#d672dd;*/
+}
+
+.mostBottom {
+    width: 100%;
+    display: inline-flex;
+    font-size: 12px;
+}
+
+.mostbotm1 {
+    width: 60%;
+    text-align-last: end;
+}
+
+.mostbotm2 {
+    width: 25%;
+    text-align: end;
+    padding-right: 30em;
+}

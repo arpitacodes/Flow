@@ -1,0 +1,24 @@
+body{
+	padding: 7em;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+h1 {
+    font-family: math;
+}
+li{
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+
+
+
+/*--------------------------------HEADER----------*/
+.logo {
+    display: inline-block;
+    padding: 0 15px 3px 2px;
+}
