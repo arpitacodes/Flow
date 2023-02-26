@@ -39,6 +39,11 @@
 .bottomLeft {
     width: 55%;
 }
+.bottomLeft h1 {
+    font-family: math;
+    margin: 0;
+    padding: 0 0 0 1em;
+ }
 .bottomRight{
 	display: flex;
 	width: 40%;
@@ -69,7 +74,7 @@
 }
 
 .socialWrap {
-    padding: 2em 0 0 4em;
+    padding: 0 0 0 1.5em;
 }
 .socialWrap a > i {
     padding: 6px;
@@ -92,4 +97,64 @@
     width: 25%;
     text-align: end;
     padding-right: 30em;
+}
+
+
+@media(max-width: 550px){
+	body{
+		margin: 0;
+    	padding: 0 4em;
+	}
+	footer{
+		width: 100%;
+		display: block;
+	}
+	.footwrap{
+		width: 100%;
+	}
+	.footwrap > h2 {
+		margin: 5px 0 0 0;
+	    padding: 0;
+	    font-size: 16px;
+		
+	}
+	.footwrap > p{
+		padding: 0 0 0 8em;
+	} 
+
+	.imgsWrapper > img {
+    	padding: 5px;
+    	width: 45%;
+	}
+	.footerBottom {
+       width: 100%;
+	    padding: 0 3em;
+	    display: block;
+	}
+	.bottomLeft {
+    	width: 80%;
+    	text-align: center;
+	}
+	.bottomLeft pre {
+    font-size: 11px;
+	}
+	.socialWrap {
+    padding:0;
+    margin-top: -15px;
+	}
+	.socialWrap a > i {
+    padding: 3px;
+    font-size: 19px;
+    }
+
+    .mostBottom {
+    width: 100%;
+    display: block;
+    
+	}
+	.mostbotm1, .mostbotm2{
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
 }
