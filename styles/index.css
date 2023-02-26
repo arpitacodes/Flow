@@ -18,7 +18,119 @@ a {
 
 
 /*--------------------------------HEADER----------*/
+
 .logo {
     display: inline-block;
-    padding: 0 15px 3px 2px;
+   }
+
+
+/*----------------NAVIGATION--------------*/
+header{
+display: flex;
 }
+nav { 
+    display: flex;
+    width: 100%;
+    padding-bottom: 0;
+    padding-top: 10px;
+
+}
+.leftNav{
+	width: 85%;
+}
+.leftNav ul li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 17px;
+
+}
+.rightNav{
+ 	width: 18%;
+}
+
+.rightNav ul li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 17px;
+    text-align: end;
+}
+
+
+/*---------------------------MAIN--------------*/
+
+.bannerWrapper {
+    background: #e61b1b; /*#fffae4;*/
+        width: 95%;
+}
+
+
+
+/*---------------MOST POPULAR PRODUCTS-------*/
+.title {
+    text-align-last: center;
+    margin: 5em 0 4em 0;
+}
+
+
+.productsWrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.products1, .products2, .products3, .products4, .products5 {
+    text-align: center;
+}
+
+.populareProducts {
+    margin-bottom: 5em;
+}
+
+
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.prodsImagesOutterWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    /* align-content: center; */
+    /* flex-direction: row; */
+}
+
+/*--------------*/
+
+
+
+/*
+.imgWrap2  {
+    position: relative;
+    z-index: -1;
+}
+.imgWrap2 h2 {
+    position: absolute;
+    z-index: 3;
+  
+   color: red;
+}
+
+.imgWrap3  {
+    position: relative;
+    z-index: -1;
+}
+.imgWrap3 h2 {
+    position: absolute;
+    z-index: 3;
+  
+   color: red;
+}
+
+.imgWrap4  {
+    position: relative;
+    z-index: -1;
+}
+.imgWrap4 h2 {
+    position: absolute;
+    z-index: 3;
+  
+   color: red;
+}*/
